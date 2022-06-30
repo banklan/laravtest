@@ -18,6 +18,13 @@
             color: #2e2e2e;
             text-align: center;
         }
+        .wrap h1{
+            font-size: 1.8rem !important;
+            margin-bottom: 2rem;
+        }
+        .wrap p{
+            font-size: 1.1rem !important;
+        }
     </style>
     </head>
     <body>
@@ -27,6 +34,7 @@
                     <div class="wrap">
                         <h1 class="flex-center">welcome to test laravel</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci beatae vitae repellat enim illum quam fuga consequuntur nemo odio quo, natus pariatur molestiae aspernatur voluptatem cumque labore minima dolores hic a? Odit voluptas cupiditate animi perspiciatis accusamus iure, est maiores alias dicta dignissimos necessitatibus possimus omnis similique doloribus nesciunt voluptatem.</p>
+                        <p style="margin-top: 25px">this is another update and its so sweet</p>
                     </div>
                 </div>
             </div>
