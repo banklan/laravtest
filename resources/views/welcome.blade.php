@@ -20,7 +20,7 @@
         }
         .wrap h1{
             font-size: 1.85rem !important;
-            margin-bottom: 2rem;
+            margin-bottom: 2.2rem;
         }
         .wrap p{
             font-size: 1.1rem !important;
