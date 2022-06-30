@@ -19,7 +19,7 @@
             text-align: center;
         }
         .wrap h1{
-            font-size: 1.8rem !important;
+            font-size: 1.85rem !important;
             margin-bottom: 2rem;
         }
         .wrap p{
