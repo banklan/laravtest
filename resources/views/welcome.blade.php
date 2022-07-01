@@ -14,16 +14,17 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
         .wrap{
-            margin-top: 4px;
-            color: #2e2e2e;
+            margin-top: 7rem;
             text-align: center;
         }
         .wrap h1{
-            font-size: 1.9rem !important;
-            font-weight: 500 !important;
+            font-size: 2rem !important;
+            font-weight: 400 !important;
             margin-bottom: 2.5rem;
+            color: purple;
         }
         .wrap p{
+            color: #2e2e2e;
             font-size: 1.2rem !important;
         }
     </style>
