@@ -1,10 +1,10 @@
 <template>
     <nav>
-        <v-app-bar flat dark class="primary white--text">
+        <v-app-bar flat dark class="white--text">
             <span class="hidden-md-and-up">
                 <v-app-bar-nav-icon class="white--text hidden-md-and-up" @click="navDrawer = true"></v-app-bar-nav-icon>
             </span>
-            <v-toolbar-title class="ml-5 my-2 primary--text hidden-sm-and-down">
+            <v-toolbar-title class="ml-5 my-2 green-text hidden-sm-and-down" color="white--text">
                 <router-link to="/" style="cursor:pointer" exact>
                     <span>
                         LaravTest
@@ -19,7 +19,7 @@
             </v-toolbar-items>
         </v-app-bar>
         <v-navigation-drawer v-model="navDrawer" absolute hide-overlay color="primary white--text" class="" disable-resize-watcher>
-            <v-toolbar-title class="primary--text ml-4 mt-3 pb-4">
+            <v-toolbar-title class="white--text ml-4 mt-3 pb-4">
                 <router-link to="/" style="cursor: pointer" exact>
                     <span>Laravtest</span>
                 </router-link>
@@ -63,4 +63,17 @@ export default {
     },
 }
 </script>
+
+<style lang="css" scoped>
+    .v-app-bar{
+        background: linear-gradient(135deg, rgb(0, 44, 167), rgb(1, 24, 87));
+    }
+    a{
+        text-decoration: none !important;
+    }
+
+    .v-toolbar__title a{
+        color: #fff !important;
+    }
+</style>
 
